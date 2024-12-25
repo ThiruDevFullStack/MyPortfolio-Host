@@ -12,6 +12,7 @@ const About = () => {
         </div>
         <div className='Box'>
             <h4>EDUCATIONAL  INFORMATION </h4>
+            <br />
             <ul>
                 <li>2021 – 2024</li>
                 <li>B.Sc Information Technology</li>
