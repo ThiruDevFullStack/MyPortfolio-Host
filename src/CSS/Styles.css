@@ -492,3 +492,177 @@ body {
     }
   }
   
+
+  /* Media Queries for 480 */
+  @media (max-width: 480px) {
+    header{
+      width: 320px;
+    }
+    nav {
+      gap: 1rem;
+      width: 320px;
+    }
+  
+    #home {
+      padding: 60px;
+      width: 260px;
+    }
+  
+    .content {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    #about{
+      padding: 2rem;
+      width: 320px;
+      padding-top: 100px;
+      margin-left: 30px;
+    }
+
+    .text p{
+      padding: 0.1rem 0;
+    }
+
+    #about .Box{
+     margin-top: -50px;
+    }
+
+    .card {
+      margin-top: 40px;
+      margin-left: -15px;
+    }
+
+    #skills{
+      padding: 2rem;
+      width: 320px;
+      padding-top: 100px;
+      margin-left: 30px;
+    }
+    #skills .text_skill p{
+      margin-top: 20px;
+    }
+  
+    #projects{
+      padding: 2rem;
+      width: 320px;
+      padding-top: 100px;
+      margin-left: 30px;
+    }
+    #contact{
+      padding: 2rem;
+      width: 320px;
+      padding-top: 100px;
+      margin-left: 30px;
+    }
+
+    footer{
+      padding: 2rem;
+      width: 350px;
+      padding-top: 100px;
+      margin-left: 30px;
+      padding: 10px 20px;
+    }
+
+    .column {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    form {
+      width: 100%;
+    }
+
+    .thanks img {
+      animation: moveTextSmall 10s linear infinite; /* Animation effect */
+    }
+  }
+  
+  /* Media Queries for 320 */
+  @media (max-width: 320px) {
+    header{
+      width: 300px;
+      padding-right: 20px;
+      padding-left: 40px;
+    }
+    nav {
+      gap: 1rem;
+      width: 320px;
+    }
+  
+    #home {
+      padding: 60px;
+      width: 240px;
+    }
+  
+    .content {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    #about{
+      padding: 2rem;
+      width: 300px;
+      padding-top: 100px;
+      margin-left: 30px;
+    }
+
+    .text p{
+      padding: 0.1rem 0;
+    }
+
+    #about .Box{
+     margin-top: -50px;
+    }
+
+    .card {
+      margin-top: 40px;
+      margin-left: -15px;
+    }
+
+    #skills{
+      padding: 2rem;
+      width: 300px;
+      padding-top: 100px;
+      margin-left: 30px;
+    }
+    #skills .text_skill p{
+      margin-top: 20px;
+    }
+  
+    #projects{
+      padding: 2rem;
+      width: 300px;
+      padding-top: 100px;
+      margin-left: 30px;
+      padding-right: 35px;
+    }
+    #contact{
+      padding: 2rem;
+      width: 305px;
+      padding-top: 100px;
+      margin-left: 30px;
+    }
+
+    footer{
+      padding: 2rem;
+      width: 330px;
+      padding-top: 100px;
+      margin-left: 30px;
+      padding: 10px 20px;
+    }
+
+    .column {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    form {
+      width: 100%;
+    }
+
+    .thanks img {
+      animation: moveTextSmall 10s linear infinite; /* Animation effect */
+    }
+  }
+  
