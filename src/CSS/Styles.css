@@ -120,11 +120,13 @@ body {
        
   }
   
-  #about .Box {
-    display: grid;
+  #about .Box_boxes {
+    /* display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 2rem;
+    gap: 2rem; */
+    display: flex;
     padding: 1rem;
+    justify-content: center;
   }
 
   .text{
@@ -447,6 +449,14 @@ body {
      margin-top: -50px;
     }
 
+    #about .Box_boxes {
+      /* display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 2rem; */
+      display: flex;
+      flex-direction: column;
+      padding: 1rem;
+    }
     .card {
       margin-top: 40px;
       margin-left: -15px;

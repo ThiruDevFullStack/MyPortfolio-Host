@@ -12,7 +12,7 @@ const About = () => {
         </div>
         <div className='Box'>
             <h4>EDUCATIONAL  INFORMATION </h4>
-            <br />
+            <div className="Box_boxes">
             <ul>
                 <li>2021 – 2024</li>
                 <li>B.Sc Information Technology</li>
@@ -31,6 +31,7 @@ const About = () => {
                 <li>Government Higher Secondary School</li>
                 <li>percentage 88 / 100</li>
             </ul>
+            </div>
         </div>
     
     </section>
