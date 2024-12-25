@@ -1,7 +1,7 @@
 // Contact.js
 import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
-import './Contact.css'
+
 
 const Contact = () => {
    

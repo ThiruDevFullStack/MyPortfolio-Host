@@ -1,17 +1,17 @@
 import React from 'react'
-import './About.css'
+
 
 const About = () => {
   return (
     <section id="about">
         <h2>About Me</h2>
         <div className="text">
-        <p>Technically proficient and driven Full Stack Developer with extensive expertise applications and  technologies. 
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Technically proficient and driven Full Stack Developer with extensive expertise applications and  technologies. 
         equipped with knowledge of both front-end and back-end technologies, Eager to use technical know-how and excellent teamwork to contribute to projects in an efficient manner while developing with the company. devoted to lifelong learning and technology 
         adaptation in order to provide effective, high-quality solutions that propel corporate success.</p>
         </div>
         <div className='Box'>
-            <h4>Educational Information </h4>
+            <h4>EDUCATIONAL  INFORMATION </h4>
             <ul>
                 <li>2021 – 2024</li>
                 <li>B.Sc Information Technology</li>

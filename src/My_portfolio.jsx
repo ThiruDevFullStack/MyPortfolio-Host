@@ -1,10 +1,10 @@
 import React from 'react'
-import './My_portfolio.css'
 import About from './About'
 import Skills from './Skills'
 import Projects from './Projects'
 import Contact from './Contact'
 import Footer from './Footer'
+import './CSS/Styles.css';
 
 const My_portfolio = () => {
   return (
@@ -22,8 +22,7 @@ const My_portfolio = () => {
         <section id='home'> 
         <div className="text_content">
         <div className="text">
-          <h1>Hi, I am </h1>
-          <h1 id='thiru'>Thirumurugan</h1>
+          <h1>Hi, I am <span>Thirumurugan</span></h1>
         </div>
         <div className="p_text">
         <p>I am a full stack web developer. I can provide clean code and pixel perfect design.</p>
@@ -42,6 +41,9 @@ const My_portfolio = () => {
         <Projects/>
         <Contact/>
         <Footer/>
+        <div className="thanks">
+          <img src="./thanks.png" alt="thanks" height={"100px"}/>
+        </div>
     </>
   )
 }

@@ -1,6 +1,6 @@
 // Skills.js
 import React from 'react';
-import './Skills.css'
+
 
 const Skills = () => {
     const front_end = [ "React", "HTML5", "CSS3", "Bootstrap"];

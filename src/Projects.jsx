@@ -1,6 +1,6 @@
 // Projects.js
 import React from 'react';
-import './Projects.css';
+
 
 const Projects = () => {
     const javascript = [
@@ -25,7 +25,7 @@ const Projects = () => {
     return (
         <section id="projects">
             <div className="column_back">
-                <h2>Projects</h2>
+                <h2 id='projects_head'>Projects</h2>
                 <div className="column">
                     <div className='card'>
                         <div className="javascript_box">
@@ -33,7 +33,7 @@ const Projects = () => {
                             {javascript.map((project, index) => (
                                 <div key={index} className="project-card">
                                     <h5>{project.name}</h5>
-                                    <p>{project.description}</p>
+                                    <p>&nbsp; &nbsp;{project.description}</p>
                                 </div>
                             ))}
                         </div>
@@ -44,7 +44,7 @@ const Projects = () => {
                             {react_js.map((project, index) => (
                                 <div key={index} className="project-card">
                                     <h5>{project.name}</h5>
-                                    <p>{project.description}</p>
+                                    <p>&nbsp; &nbsp;{project.description}</p>
                                 </div>
                             ))}
                         </div>
@@ -55,7 +55,7 @@ const Projects = () => {
                             {python_django.map((project, index) => (
                                 <div key={index} className="project-card">
                                     <h5>{project.name}</h5>
-                                    <p>{project.description}</p>
+                                   <p>&nbsp; &nbsp;{project.description}</p>
                                 </div>
                             ))}
                         </div>
